@@ -31,5 +31,10 @@ public class AppTest
 	public void multiplicatio_test() {
 		assertEquals("5x5=25.0", opt.evaluate("5x5"));
 	}
+	
+	@Test
+	public void divition_test() {
+		assertEquals("5/5=1.0", opt.evaluate("5/5"));
+	}
 
 }
