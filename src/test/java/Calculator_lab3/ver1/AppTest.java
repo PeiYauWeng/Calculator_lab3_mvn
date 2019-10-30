@@ -37,4 +37,8 @@ public class AppTest
 		assertEquals("5/5=1.0", opt.evaluate("5/5"));
 	}
 
+	@Test
+	public void reminder_test() {
+		assertEquals("5%4=1.0", opt.evaluate("5%4"));
+	}
 }
