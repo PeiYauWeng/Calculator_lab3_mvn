@@ -26,5 +26,10 @@ public class AppTest
 	public void Subtraction_test() {
 		assertEquals("5-5=0.0", opt.evaluate("5-5"));
 	}
+	
+	@Test
+	public void multiplicatio_test() {
+		assertEquals("5x5=25.0", opt.evaluate("5x5"));
+	}
 
 }
