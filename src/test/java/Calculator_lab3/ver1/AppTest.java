@@ -41,4 +41,9 @@ public class AppTest
 	public void reminder_test() {
 		assertEquals("5%4=1.0", opt.evaluate("5%4"));
 	}
+	
+	@Test
+	public void specialCase_test() {
+		assertEquals("5/0=Infinity", opt.evaluate("5/0"));
+	}
 }
